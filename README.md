@@ -33,7 +33,7 @@ You can increase the speed by allowing larger time intervals for the force calcu
 smaller moons and objects need small time intervals to remain tethered to their parents. Setting the
 interval too high will send moons and planets shooting off into space.
 
-Celestaial objects are not drawn to scale becuase at solar system distances the planets would be
+Celestaial objects are not drawn to scale because at solar system distances the planets would be
 single pixels.  The system scales planets proportionally based on specified diameter, as a result
 some overlap may occur.
 
@@ -50,6 +50,7 @@ With coding, modify the [simulate.py](simulate.py) file.
 - [ ] Add multi processor support for a faster smoother simulation.
 - [ ] Add ability to zoom in and out.
 - [ ] Add collision detection to objects.
+- [ ] Add 3D support wiht additional axis and perspective.
 
 ---
 &copy; 2022 Paul Kenjora - Apache License, Version 2.0
