@@ -11,12 +11,12 @@ This is a great project to try with kids as you can edit the code and even creat
 
 ## Running The Simulation
 
-- [ ] git clone https://github.com/pkenjora/celestial-simulator
-- [ ] python3 -m pip install -r requirements.txt
-- [ ] python3 simulate.py
-  - [ ] python3 simulate.py -load solar
-  - [ ] python3 simulate.py -load inner
-  - [ ] python3 simulate.py -load collision
+  - [ ] git clone https://github.com/pkenjora/celestial-simulator
+  - [ ] python3 -m pip install -r requirements.txt
+  - [ ] python3 simulate.py
+    - [ ] python3 simulate.py -load solar
+    - [ ] python3 simulate.py -load inner
+    - [ ] python3 simulate.py -load collision
 
 ## Creating A Simulation
 
@@ -41,16 +41,17 @@ some overlap may occur.
 
 Without coding, just create or edit a simulation configuration.
 
-- [ ] Add a rogue asteroid or comet into the system and see what happens.
-- [ ] Configure a stable binary star system with stable planetary orbits.
-- [ ] Replicate the solar system with all the moons.
-- [ ] Crate a massive black hole in the center of the solar system.
+  - [ ] Add a rogue asteroid or comet into the system and see what happens.
+  - [ ] Configure a stable binary star system with stable planetary orbits.
+  - [ ] Replicate the solar system with all the moons.
+  - [ ] Crate a massive black hole in the center of the solar system.
 
 With coding, modify the [simulate.py](simulate.py) file.
-- [ ] Add multi processor support for a faster smoother simulation.
-- [ ] Add ability to zoom in and out.
-- [ ] Add collision detection to objects.
-- [ ] Add 3D support wiht additional axis and perspective.
+
+  - [ ] Add multi processor support for a faster smoother simulation.
+  - [ ] Add ability to zoom in and out.
+  - [ ] Add collision detection to objects.
+  - [ ] Add 3D support wiht additional axis and perspective.
 
 ---
 &copy; 2022 Paul Kenjora - Apache License, Version 2.0
