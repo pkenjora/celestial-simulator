@@ -21,7 +21,7 @@ This is a great project to try with kids as you can edit the code and even creat
 ## Creating A Simulation
 
 Copy any of the [solar.py](solar.py), [inner.py](inner.py), or [collision.py](collision.py) configurations.
-Change the coordinates, distances, celestial bodies in the simulation, then run using:
+Change the coordinates, distances, and celestial bodies in the simulation, then run using:
 
 - [ ] python3 simulate.py -load [your_new_simulation.py]
 
@@ -33,6 +33,10 @@ You can increase the speed by allowing larger time intervals for the force calcu
 smaller moons and objects need small time intervals to remain tethered to their parents. Setting the
 interval too high will send moons and planets shooting off into space.
 
+Celestaial objects are not drawn to scale becuase at solar system distances the planets would be
+single pixels.  The system scales planets proportionally based on specified diameter, as a result
+some overlap may occur.
+
 # Fun Things To Do With This Code
 
 Without coding, just create or edit a simulation configuration.
@@ -40,9 +44,9 @@ Without coding, just create or edit a simulation configuration.
 - [ ] Add a rogue asteroid or comet into the system and see what happens.
 - [ ] Configure a stable binary star system with stable planetary orbits.
 - [ ] Replicate the solar system with all the moons.
-- [ ] Crate a massive black hole in the center of the galazy.
+- [ ] Crate a massive black hole in the center of the solar system.
 
-With coding, modify the [simulate,py](simulate.py) file.
+With coding, modify the [simulate.py](simulate.py) file.
 - [ ] Add multi processor support for a faster smoother simulation.
 - [ ] Add ability to zoom in and out.
 - [ ] Add collision detection to objects.
